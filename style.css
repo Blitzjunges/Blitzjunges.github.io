@@ -1,0 +1,102 @@
+#offcanvasScrolling {
+    width: 90%;
+    background-image: url("images/shopGrid.png");
+}
+
+.margin-md {
+	margin: 1em;
+}
+
+table, th, td {
+	border: none;
+	/*border:1px solid black;*/
+}
+
+.tabele-text{
+	width: 100%;
+}
+
+/*Infinite background https://stackoverflow.com/questions/24124777/moving-background-image-diagonally-across-the-screen*/
+html, body { height: 100%; width: 100%;}
+body {
+    background-image: url('images/newGrid.png');
+}
+
+
+/*Shop button*/
+.btn-secondary, .btn-secondary:visited {
+    background-color: #00D7C9 !important;
+	color: #000000 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: #000000 !important;
+}
+
+.btn-secondary:hover {
+	background-color: #06DDCF !important;
+	color: #000000 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: #000000 !important;
+}
+
+.btn-secondary:active {
+	background-color: #00D7C9 !important;
+	color: #000000 !important;
+	border-style: solid !important;
+	border-width: 2px !important;
+	border-color: #000000 !important;
+}
+
+#bilder {
+	min-width: 190px
+}
+
+/*Upgrades buttons*/
+.btn-primary, .btn-primary:visited {
+	background-color: #F9F871 !important;
+	color: #000000 !important;
+	border-style: solid !important;
+	border-width: 2px !important;
+	border-color: #000000 !important;
+	width: 25%;
+}
+
+.btn-primary:hover {
+	background-color: #FFFE77 !important;
+	color: #000000 !important;
+	border-style: solid !important;
+	border-width: 2px !important;
+	border-color: #000000 !important;
+}
+
+.btn-primary:active {
+	background-color: #F9F871 !important;
+	color: #000000 !important;
+	border-style: solid !important;
+	border-width: 4px !important;
+	border-color: #000000 !important;
+}
+
+
+/*For score and per_sec*/
+.bg-dark {
+	background-color: rgb(0, 0, 0, 0.5) !important;
+	width: 35%;
+	border-radius: 10px
+}
+
+/*Responive knopf*/
+#knopf {
+	transition: all .2s ease-in-out;
+	width: 35%;
+	min-width: 250px
+}
+
+#knopf:hover {
+	transform: scale(1.10);
+}
+
+#knopf:active {
+	transform: scale(0.99);
+}
