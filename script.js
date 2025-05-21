@@ -2,12 +2,14 @@ var inhaltTabelle = {
   name:[
     "Button Clicker",
     "Wort des Tages",
-    "Asteroids Klon"
+    "Asteroids Klon",
+    "Graph of the first book of The Elements"
   ],
   link:[
     "button_clicker",
     "wort_tages",
-    "SpaceRocks"
+    "SpaceRocks",
+    "the_Elements"
   ]
 }
 
