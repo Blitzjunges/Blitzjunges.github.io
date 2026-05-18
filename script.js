@@ -4,14 +4,16 @@ var inhaltTabelle = {
     "Wort des Tages",
     "Asteroids Klon",
     "Graph of the first book of The Elements",
-    "Kassierer Übung"
+    "Kassierer Übung",
+    "Oligarchie, die Kinderkrankeit der Parteien"
   ],
   link:[
     "button_clicker",
     "wort_tages",
     "SpaceRocks",
     "the_Elements",
-    "Kasse"
+    "Kasse",
+    "Oligarchie"
   ]
 }
 
